@@ -1,10 +1,14 @@
 {
-  "printWidth": 80,
-  "useTabs": false,
-  "semi": true,
-  "singleQuote": true,
-  "trailingComma": "es5",
-  "bracketSpacing": true,
-  "arrowParens": "avoid",
-  "proseWrap": "always"
+  "printWidth": 80, // на какой позиции выполнять перенос строки
+  "useTabs": false, // делать отступы с помощью табуляции
+  "tabWidth": 2, // заменять табуляцию на 2 пробела
+  "semi": true, // точка с запятой в конце операторов
+  "singleQuote": true, // использовать одинарные кавычки вместо двойных
+  "jsxSingleQuote": false, // использовать в jsx одинарные кавычки вместо двойных
+  "trailingComma": "es5", // конечные запятые в объектах и массивах
+  "bracketSpacing": true, // пробелы между скобками в литералах объектов
+  "arrowParens": "avoid", // скобки вокруг единственного параметра стрелочной функции
+  "proseWrap": "always", // как обрабатывать markdown файлы
+  "jsxBracketSameLine": false, // где будет завершающий > многострочного jsx-элемента
+  "endOfLine": "lf" // окончания строк
 }
